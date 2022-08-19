@@ -209,6 +209,7 @@ a:focus,
   width: 100%;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
+  opacity: 0.65;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -220,7 +221,7 @@ a:focus,
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #000000;
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
@@ -238,6 +239,13 @@ a:focus,
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+}
+#paragraph2{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 auto;
 }
 header .intro-text {
   padding-top: 350px;
@@ -310,7 +318,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: radial-gradient( #3b7c94 0%, #2a4d5c 100%);
   color: #fff;
 }
 #services .service-desc {
